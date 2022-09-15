@@ -1,5 +1,5 @@
 const dao = require('../dao/dao.user')
-class UserController{
+class UserService{
 
     async getUser(ctx:any) {
         const {res} =  await dao.getUser()
@@ -27,4 +27,4 @@ class UserController{
 
 }
 
-module.exports = new UserController();
+module.exports = new UserService();

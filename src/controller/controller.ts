@@ -14,7 +14,7 @@ const Service = require('koa-router');
 const {
     getUser,
     addUser
-} = require('../controller/controller.user');
+} = require('../service/service.user');
 
 // 前缀：
 const deportmentRouter = new Service({
